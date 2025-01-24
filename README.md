@@ -10,7 +10,7 @@ Termux xfce4 desktop installation script for termux-x11 app future of termux GUI
 * note indian user must connect VPN or Private DNS
 
 ```
-curl -sSL https://raw.githubusercontent.com/electrikjesus/Termux-x11-xfce4/main/lib/install | bash
+curl -sSL https://raw.githubusercontent.com/electrikjesus/Termux-x11-xfce4/main/lib/install > install && chmod +x install && bash install
 ```
 Then download Termux:x11 apk from here:
 https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk
