@@ -4,8 +4,7 @@ echo -e "\a\a\e[36;1m
 \e[33;1m---Installing Termux-x11 Xfce4 Desktop\e[0m"
 echo ---updating system...
 rm -rf $PREFIX/etc/motd
-apt update
-apt upgrade
+apt update && apt upgrade
 echo ---installing requirements.....
 apt install toilet figlet x11-repo
 echo ---installing Xfce4-Desktop...
