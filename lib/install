@@ -5,9 +5,9 @@ echo -e "\a\a\e[36;1m
 echo ---updating system...
 apt update && apt upgrade -y
 echo ---installing requirements.....
-apt install toilet figlet x11-repo -y
+apt install toilet figlet x11-repo
 echo ---installing Xfce4-Desktop...
-apt install xfce4 xfce4-terminal xwayland dbus termux-x11-nightly xfce4-goodies firefox neovim -y
+apt install xfce4 xfce4-terminal xwayland dbus termux-x11-nightly xfce4-goodies firefox neovim
 rm -rf $PREFIX/etc/motd
 cat > x <<- EOF
 toilet -f slant Termux-X11
