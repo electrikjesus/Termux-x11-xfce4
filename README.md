@@ -21,3 +21,7 @@ Switch back over to Termux, then type the following command to launch:
 ```
 xstart
 ```
+
+# Troubleshooting
+
+To remove all changes made, uninstall the Termux-x11 apk, and then delete data and cache for Termux from Settings > Apps > Termux > Storage.
